@@ -1,0 +1,1363 @@
+.master{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.title_header{
+	width: 100%;
+	background-color: #0B3861;
+	height: 50px;
+	direction: rtl;
+	position: fixed;
+	z-index: 2;
+	float: right;
+}
+
+.title_header_text{
+	float: left;
+	position: relative;
+	left: 1175px;
+	color: white;
+	font-size: 18pt;
+	top: 16px;
+	font-weight: bold;
+	
+}
+
+
+.menu_header{
+	background-color: white;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 50px;
+	float: right;
+	direction: rtl;
+	font-size: 16pt;
+	z-index: 2;
+	border: solid #0B3861;
+	
+	
+}
+.menu_header a:link{
+	color:  #0B3861;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+.menu_header a:hover{
+	color: #362B2C;
+}
+
+
+.menu li{
+	display: inline;
+	padding: 20px;
+	
+}
+
+
+.menu_header  li ul{
+	visibility:hidden;
+	position: absolute;
+	opacity: 0;
+	font-size: 12pt;
+	padding: 2px;
+	top: 50px;
+	right: 190px;
+	text-decoration: underline;
+	
+}
+
+
+
+.menu li:hover ul {
+	visibility:visible;
+	position: absolute;
+    opacity: 1;
+	display:grid;
+	-webkit-transition:1s;
+	
+	top: 55;
+
+	
+
+}
+
+.menu_header  li ul li{
+	background-color: #fff;
+	height: 0px;
+	position: relative;
+
+	
+	
+}
+
+.menu_header  li ul li:hover{
+	text-decoration: underline;
+	color: black;
+	font-weight:bold;
+	font-size: 14pt;
+	
+	
+}
+
+.footer{
+
+	width: 100%;
+	position: relative;
+	background-color:#00111F;
+	float: left;
+	height: 180px;
+	color: white;
+	z-index: 0;
+	bottom: 0px;
+	
+	
+}
+.content_footer{
+	color: wheat;
+	float: inherit;
+	position: relative;
+	top: 30px;
+	direction: rtl;
+	left: 550px;
+	bottom: 20px;
+}
+
+
+
+
+/*______________________________________model sign in  ____________________________________ */
+.model_container{
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	opacity: 0;
+	left: -0px;
+	top: -0px;
+	position: fixed;
+	background:rgb(1,50,77,0.3);
+	/*transition: all 500ms ease;*/
+	float: right;
+	
+}
+
+.model_container:target{
+	opacity: 1;
+	pointer-events: auto;
+}
+
+
+
+.model{
+	width: 350px;
+	height: 350px;
+	margin: auto;
+	position: absolute;
+	top: 40px; bottom: 0px;
+	right: 0px; left: 0px;
+	background: #0B3861;
+	border: 2px solid #222;
+	padding: 20px;
+	border-radius: 20px;
+	z-index: 3;
+	
+	
+}
+
+
+.model_heading{
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	height: 60px;
+	margin-bottom: 30px;
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 20pt;
+	font-family: big john;
+	/*border-bottom: 2px solid #fefefe;*/
+	float: right;
+	direction: rtl;
+}
+
+
+.input_sign input{
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 5px;
+	height: 50px;
+	border: 0px;
+	font-family: georgia;
+	font-size: 11pt;
+	text-align: right;
+	direction: rtl;
+}
+
+.btnrig{
+	background-color:green;
+	color: white;
+	font-family: georgia;
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+.close{
+	color: white;
+	position: absolute;
+	border: 2px solid #333;
+	padding: 7px 9px 11px 9px;
+	font-family: big john;
+	background: black;
+	text-decoration: none;
+	top: -20px;
+	right: -20px;
+	border-radius: 50%;
+	/*transition: background 500ms;*/
+	
+	
+	
+	
+	
+}
+
+.close:hover{
+	background: red;
+	cursor: pointer;
+}
+
+
+
+
+.have_account{
+	color :white;
+	display: inline-block;
+	margin-top: 15px;
+	float: right;
+	position: absolute;
+	left: 90px;
+	text-decoration: none;
+	font-size: 13pt;
+	width: 100%;
+	
+}
+.have_account:hover{
+	color: red;
+	
+}
+
+
+.forget_pass{
+	
+	color :white;
+	display: inline-block;
+	margin-top: 0px;
+	text-align: right;
+	float: right;
+	text-decoration: none;
+	font-size: 13pt;
+}
+
+.forget_pass:hover{
+	color: red;
+	
+}
+
+/* ______________________________________________end sign in________________________________________*/
+
+
+
+/*______________________________________Rigister  ____________________________________ */
+.Rigister_model_container{
+	width: 100%;
+	height: 100%;
+	top: -0;
+	left: -0;
+	pointer-events: none;
+	opacity: 0;
+	position: fixed;
+	background:rgb(1,50,77,0.3);
+	
+	
+	/*transition: all 500ms ease;*/
+	
+	
+	
+}
+
+.Rigister_model_container:target{
+	opacity: 1;
+	pointer-events: auto;
+}
+
+
+
+.Rigister_model{
+	width: 350px;
+	height: 400px;
+	margin: auto;
+	position: absolute;
+	top: 100px; bottom: 0px;
+	right: 0px; left: 0px;
+	background: #0B3861;
+	border: 2px solid #222;
+	padding: 20px;
+	border-radius: 20px;
+	
+	
+}
+
+
+.Rigister_model_heading{
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	height: 60px;
+	margin-bottom: 30px;
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 20pt;
+	font-family: big john;
+	/*border-bottom: 2px solid #fefefe;*/
+	float: right;
+	direction: rtl;
+}
+
+
+.input_rigister input[type="text"],input[type="password"],input[type="submit"]{
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 5px;
+	height: 50px;
+	border: 0px;
+	font-family: georgia;
+	font-size: 11pt;
+	text-align: right;
+	direction: rtl;
+}
+
+
+
+.g_rigister{
+	float: right;
+	direction: rtl;
+	font-size: 16pt;
+	color: white;
+}
+
+
+.Rigister_btnrig{
+	background-color:green;
+	color: white;
+	font-family: georgia;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 16pt;
+}
+
+
+.Rigister_close{
+	color: white;
+	position: absolute;
+	border: 2px solid #333;
+	padding: 7px 9px 11px 9px;
+	font-family: big john;
+	background: black;
+	text-decoration: none;
+	top: -20px;
+	right: -20px;
+	border-radius: 50%;
+	/*transition: background 500ms;*/
+	
+	
+	
+	
+	
+}
+
+.Rigister_close:hover{
+	background: red;
+	cursor: pointer;
+}
+
+
+
+
+
+
+.Rigister_have_account{
+	
+	color :white;
+	display: inline-block;
+	margin-top: 0px;
+	text-align: right;
+	float: right;
+	text-decoration: none;
+	font-size: 13pt;
+}
+
+
+.Rigister_have_account:hover{
+	
+	color:red;
+}
+
+/* ______________________________________________end Rigister________________________________________*/
+
+
+
+/*______________________________________model how  ____________________________________ */
+.model_container_how{
+	width: 100%;
+	height: 100%;
+	top: -0;
+	left: -0;
+	pointer-events: none;
+	opacity: 0;
+	position: fixed;
+	background:rgb(1,50,77,0.3);
+	
+	/*transition: all 500ms ease;*/
+	
+	float: right;
+	
+}
+
+.model_container_how:target{
+	opacity: 1;
+	pointer-events: auto;
+}
+
+
+
+.model_how{
+	width: 300px;
+	height: 370px;
+	margin: auto;
+	position: absolute;
+	top: 100px; bottom: 0px;
+	right: 0px; left: 0px;
+	background: #0B3861;
+	border: 2px solid #222;
+	padding: 20px;
+	border-radius: 20px;
+	
+	
+}
+
+
+.model_heading_how{
+	height: 60px;
+	color: white;;
+	text-align: center;
+	font-size: 20pt;
+	font-family: big john;
+	/*border-bottom: 2px solid #fefefe;*/
+	direction: rtl;
+	position: relative;
+	top: -40px;
+	text-align: center;
+	
+	
+}
+
+
+.content_how{
+	font-weight: 50;
+	width: 100%;
+	height: 140px;
+	font-size: 16pt;
+	text-align: center;
+	direction: rtl;
+	color: black;
+	position: relative;
+	top: -50px;
+	background-color: white;
+	padding-top: 10px;
+}
+
+.btnrig_how{
+	background-color:green;
+	color: white;
+	font-family: georgia;
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+.close_how{
+	color: white;
+	position: absolute;
+	border: 2px solid #333;
+	padding: 7px 9px 11px 9px;
+	font-family: big john;
+	background: black;
+	text-decoration: none;
+	top: -20px;
+	right: -20px;
+	border-radius: 50%;
+	/*transition: background 500ms;*/
+	
+	
+	
+	
+	
+}
+
+.close_how:hover{
+	background: red;
+	cursor: pointer;
+}
+
+
+
+
+.have_account_how{
+	color :white;
+	display: inline-block;
+	margin-top: 15px;
+	float: right;
+	position: absolute;
+	left: 90px;
+	text-decoration: none;
+	font-size: 13pt;
+	width: 100%;
+	
+}
+.have_account_how:hover{
+	color: red;
+	
+}
+
+
+.forget_pass_how{
+	
+	color :white;
+	display: inline-block;
+	margin-top: 0px;
+	text-align: right;
+	float: right;
+	text-decoration: none;
+	font-size: 13pt;
+}
+
+.forget_pass_how:hover{
+	color: red;
+	
+}
+
+/* ______________________________________________end how________________________________________*/
+
+
+
+
+
+
+
+
+/*______________________________________model init  ____________________________________ */
+.model_container_init{
+	width: 100%;
+	height: 100%;
+	top: -0;
+	left: -0;
+	pointer-events: none;
+	opacity: 0;
+	position: fixed;
+	background:rgb(1,50,77,0.3);
+	
+	/*transition: all 500ms ease;*/
+	
+	float: right;
+	
+}
+
+.model_container_init:target{
+	opacity: 1;
+	pointer-events: auto;
+}
+
+
+
+.model_init{
+	width: 450px;
+	height: 400px;
+	margin: auto;
+	position: absolute;
+	top: 120px; bottom: 0px;
+	right: 0px; left: 0px;
+	background: #0B3861;
+	border: 2px solid #222;
+	padding: 20px;
+	border-radius: 20px;
+	z-index: 6;
+	
+	
+}
+
+
+.model_heading_init{
+	height: 60px;
+	color: white;;
+	text-align: center;
+	font-size: 20pt;
+	font-family: big john;
+	/*border-bottom: 2px solid #fefefe;*/
+	direction: rtl;
+	position: relative;
+	top: -40px;
+	text-align: center;
+	
+	
+}
+
+
+.content_init{
+	font-weight: 50;
+	width: 100%;
+	height: 180px;
+	font-size: 16pt;
+	text-align: center;
+	direction: rtl;
+	color: black;
+	position: relative;
+	top: -50px;
+	background-color: white;
+	padding-top: 10px;
+}
+
+.btnrig_init{
+	background-color:green;
+	color: white;
+	font-family: georgia;
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+.close_init{
+	color: white;
+	position: absolute;
+	border: 2px solid #333;
+	padding: 7px 9px 11px 9px;
+	font-family: big john;
+	background: black;
+	text-decoration: none;
+	top: -20px;
+	right: -20px;
+	border-radius: 50%;
+	/*transition: background 500ms;*/
+	
+	
+	
+	
+	
+}
+
+.close_init:hover{
+	background: red;
+	cursor: pointer;
+}
+
+
+
+
+.have_account_init{
+	color :white;
+	display: inline-block;
+	margin-top: 15px;
+	float: right;
+	position: absolute;
+	left: 90px;
+	text-decoration: none;
+	font-size: 13pt;
+	width: 100%;
+	
+}
+.have_account_init:hover{
+	color: red;
+	
+}
+
+
+.forget_pass_init{
+	
+	color :white;
+	display: inline-block;
+	margin-top: 0px;
+	text-align: right;
+	float: right;
+	text-decoration: none;
+	font-size: 13pt;
+}
+
+.forget_pass_init:hover{
+	color: red;
+	
+}
+
+/* ______________________________________________end init________________________________________*/
+
+
+
+
+
+/*______________________________________model self  ____________________________________ */
+.model_container_self{
+	width: 100%;
+	height: 100%;
+	top: -0;
+	left: -0;
+	pointer-events: none;
+	opacity: 0;
+	position: fixed;
+	background:rgb(1,50,77,0.3);
+	
+	/*transition: all 500ms ease;*/
+	
+	float: right;
+	
+}
+
+.model_container_self:target{
+	opacity: 1;
+	pointer-events: auto;
+}
+
+
+
+.model_self{
+	width: 400px;
+	height: 350px;
+	margin: auto;
+	position: absolute;
+	top: 120px; bottom: 0px;
+	right: 0px; left: 0px;
+	background: #0B3861;
+	border: 2px solid #222;
+	padding: 20px;
+	border-radius: 20px;
+	z-index: 6;
+	
+	
+}
+
+
+.model_heading_self{
+	height: 60px;
+	color: white;;
+	text-align: center;
+	font-size: 20pt;
+	font-family: big john;
+	/*border-bottom: 2px solid #fefefe;*/
+	direction: rtl;
+	position: relative;
+	top: -40px;
+	text-align: center;
+	
+	
+}
+
+
+.content_self{
+	font-weight: 50;
+	width: 100%;
+	height: 180px;
+	font-size: 16pt;
+	text-align: right;
+	direction: rtl;
+	color: black;
+	position: relative;
+	top: -50px;
+	background-color: white;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+
+.btnrig_self{
+	background-color:green;
+	color: white;
+	font-family: georgia;
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+.close_self{
+	color: white;
+	position: absolute;
+	border: 2px solid #333;
+	padding: 7px 9px 11px 9px;
+	font-family: big john;
+	background: black;
+	text-decoration: none;
+	top: -20px;
+	right: -20px;
+	border-radius: 50%;
+	/*transition: background 500ms;*/
+	
+	
+	
+	
+	
+}
+
+.close_self:hover{
+	background: red;
+	cursor: pointer;
+}
+
+
+
+
+.have_account_self{
+	color :white;
+	display: inline-block;
+	margin-top: 15px;
+	float: right;
+	position: absolute;
+	left: 90px;
+	text-decoration: none;
+	font-size: 13pt;
+	width: 100%;
+	
+}
+.have_account_self:hover{
+	color: red;
+	
+}
+
+
+.forget_pass_self{
+	
+	color :white;
+	display: inline-block;
+	margin-top: 0px;
+	text-align: right;
+	float: right;
+	text-decoration: none;
+	font-size: 13pt;
+}
+
+.forget_pass_self:hover{
+	color: red;
+	
+}
+
+.social_media{
+	width: 40px;
+	display: inline;
+	top: 0px;
+	position: relative;
+}
+
+.social_media a img:hover{
+	
+	top: -25px;
+}
+
+
+
+/* ______________________________________________end self________________________________________*/
+
+/*----------------side----------------*/
+
+.side{
+	float: right;
+	position: relative;
+	top: -150px;
+	/*background-color: red;*/
+	z-index: 0;
+	width:150%;
+	right: -199px;
+	
+	
+	
+}
+
+
+.side_content{
+	position: relative;
+	width: 60%;
+	/*background-color: yellow;*/
+	direction: rtl;
+	font-size: 16pt;
+	float: right;
+	right: 10px;
+	/*color: #0B3861;*/
+	font-weight: bold;
+	color: #0B3861;
+	
+}
+
+.ph_main{
+	float: left;
+	
+	
+}
+
+
+
+
+.s_tit{
+	float: right;
+	color: darkred;
+}
+
+
+
+
+
+
+.s_link{
+	color: blue;
+	float: left;
+	left: 100px;
+	position: relative;
+	
+	
+}
+
+
+
+
+
+
+
+.akfal{
+	background-color:#0B3861;
+	color: white;
+	text-decoration: none;
+}
+
+/*----------------end side----------------*/
+
+/*---------content---------*/
+.content{
+	position: relative;
+	top: 110px;
+	z-index: -5;
+	/*background-color: blue;*/
+	/*width: 40%;*/
+	float: left;
+	padding-bottom: 140px;
+}
+
+/*---------end content---------*/
+
+
+
+/*----------------------condition page-----------------------*/
+
+.side_condition{
+		float: right;
+	position: relative;
+	top: -170px;
+	/*background-color: red;*/
+	/*width: 40%;*/
+	z-index: 0;
+	width: 155%;
+	right: -250px;;
+	
+}
+
+
+
+
+.side_content_condition{
+	
+		position: relative;
+	width: 99%;
+	/*background-color: yellow;*/
+	direction: rtl;
+	font-size: 12pt;
+	float: right;
+	
+	color: #0B3861;
+	font-weight: bold;
+	
+}
+
+.check_condition{
+	font-size: 16pt;
+}
+
+.link_akfal{
+	font-size: 20pt;
+}
+
+.link_akfal:hover{
+color: red;
+
+}
+
+/*------------end condition page-----*/
+
+/*------------------modal akfal-------------------*/
+
+.condition_model_container{
+	width: 100%;
+	height: 100%;
+	top: -0;
+	left: -0;
+	pointer-events: none;
+	opacity: 0;
+	position: fixed;
+	background:rgb(1,50,77,0.3);
+	z-index: 1000;
+	
+	
+	/*transition: all 500ms ease;*/
+	
+	
+	
+}
+
+.condition_model_container:target{
+	opacity: 1;
+	pointer-events: auto;
+}
+
+
+
+.condition_model{
+	width: 350px;
+	height: 400px;
+	margin: auto;
+	position: absolute;
+	top: 100px; bottom: 0px;
+	right: 0px; left: 0px;
+	background: #0B3861;
+	border: 2px solid #222;
+	padding: 20px;
+	border-radius: 20px;
+	z-index: 1000;
+}
+
+
+.condition_model_heading{
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	height: 60px;
+	margin-bottom: 30px;
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 20pt;
+	font-family: big john;
+	/*border-bottom: 2px solid #fefefe;*/
+	float: right;
+	direction: rtl;
+}
+
+
+.input_condition input[type="text"],input[type="password"],input[type="submit"]{
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 5px;
+	height: 50px;
+	border: 0px;
+	font-family: georgia;
+	font-size: 11pt;
+	text-align: right;
+	direction: rtl;
+}
+
+
+
+.g_condition{
+	float: right;
+	direction: rtl;
+	font-size: 16pt;
+	color: white;
+}
+
+
+.condition_btnrig{
+	background-color:green;
+	color: white;
+	font-family: georgia;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 16pt;
+}
+
+
+.condition_close{
+	color: white;
+	position: absolute;
+	border: 2px solid #333;
+	padding: 7px 9px 11px 9px;
+	font-family: big john;
+	background: black;
+	text-decoration: none;
+	top: -20px;
+	right: -20px;
+	border-radius: 50%;
+	/*transition: background 500ms;*/
+	
+	
+	
+	
+	
+}
+
+.condition_close:hover{
+	background: red;
+	cursor: pointer;
+}
+
+
+
+
+
+
+.condition_have_account{
+	
+	color :white;
+	display: inline-block;
+	margin-top: 0px;
+	text-align: right;
+	float: right;
+	text-decoration: none;
+	font-size: 13pt;
+}
+
+
+.condition_have_account:hover{
+	
+	color:red;
+}
+
+
+
+.select_condition{
+	width: 100%;
+	height: 50px;
+	font-size: 11pt;
+	text-align: center;
+	direction: rtl;
+	
+	
+}
+/*------------------end modal akfal-------------------*/
+
+/*------------------new_yateem_modal------------------*/
+
+.condition_model_container{
+	width: 100%;
+	height: 100%;
+	top: -0;
+	left: -0;
+	pointer-events: none;
+	opacity: 0;
+	position: fixed;
+	background:rgb(1,50,77,0.3);
+	z-index: 1000;
+	
+	
+	/*transition: all 500ms ease;*/
+	
+	
+	
+}
+
+.condition_model_container:target{
+	opacity: 1;
+	pointer-events: auto;
+}
+
+
+
+.condition_model{
+	width: 350px;
+	height: 400px;
+	margin: auto;
+	position: absolute;
+	top: 100px; bottom: 0px;
+	right: 0px; left: 0px;
+	background: #0B3861;
+	border: 2px solid #222;
+	padding: 20px;
+	border-radius: 20px;
+	z-index: 1000;
+}
+
+
+.condition_model_heading{
+	box-sizing: border-box;
+	width: 100%;
+	display: block;
+	height: 60px;
+	margin-bottom: 30px;
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 20pt;
+	font-family: big john;
+	/*border-bottom: 2px solid #fefefe;*/
+	float: right;
+	direction: rtl;
+}
+
+
+.input_condition input[type="text"],input[type="password"],input[type="submit"]{
+	margin-bottom: 15px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 5px;
+	height: 50px;
+	border: 0px;
+	font-family: georgia;
+	font-size: 11pt;
+	text-align: right;
+	direction: rtl;
+}
+
+
+
+.g_condition{
+	float: right;
+	direction: rtl;
+	font-size: 16pt;
+	color: white;
+}
+
+
+.condition_btnrig{
+	background-color:green;
+	color: white;
+	font-family: georgia;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 16pt;
+}
+
+
+.condition_close{
+	color: white;
+	position: absolute;
+	border: 2px solid #333;
+	padding: 7px 9px 11px 9px;
+	font-family: big john;
+	background: black;
+	text-decoration: none;
+	top: -20px;
+	right: -20px;
+	border-radius: 50%;
+	/*transition: background 500ms;*/
+	
+	
+	
+	
+	
+}
+
+.condition_close:hover{
+	background: red;
+	cursor: pointer;
+}
+
+
+
+
+
+
+.condition_have_account{
+	
+	color :white;
+	display: inline-block;
+	margin-top: 0px;
+	text-align: right;
+	float: right;
+	text-decoration: none;
+	font-size: 13pt;
+}
+
+
+.condition_have_account:hover{
+	
+	color:red;
+}
+
+
+
+.select_condition{
+	width: 100%;
+	height: 50px;
+	font-size: 11pt;
+	text-align: center;
+	direction: rtl;
+	
+	
+}
+/*------------------end new_yateem_modal-------------------*/
+
+
+/*------------------table view_yateem-------------------*/
+
+.tablte_yateem{
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9em;
+	min-width: 400px;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0 0 0 0.15);
+	direction: rtl;
+	position: relative;
+	top: -60px;
+}
+
+.tablte_yateem thead tr{
+	background-color: #0B3861;
+	color: #ffffff;
+	text-align: right;
+	font-weight: bold;
+
+}
+
+.tablte_yateem th,
+.tablte_yateem td {
+	padding: 12px 15px;
+}
+
+.tablte_yateem tbody tr{
+	border-bottom: 1px solid #dddddd;
+}
+
+.tablte_yateem tbody tr:nth-of-type(even){
+	background-color: #f3f3f3;
+}
+
+.tablte_yateem tbody tr:last-of-type{
+	border-bottom: 2px solid #0B3861;
+}
+
+
+
+.tablte_yateem tbody tr.active-row{
+	font-weight: bold;
+	color: #0B3861;
+}
+
+/*------------------end table view_yateem-------------------*/
